@@ -9,8 +9,11 @@ This desktop app will assist the librarian to keep track of all the books in the
 
 Libraries:
 Download the JavaFX SDK: https://gluonhq.com/products/javafx/
+
 fontawesome: https://bitbucket.org/Jerady/fontawesomefx/downloads/
+
 jfoenix: https://github.com/sshahine/JFoenix
+
 These libraries are also included in the lib folder. 
 
 Virtual Machine Settings:
