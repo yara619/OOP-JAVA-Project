@@ -23,4 +23,5 @@ Add VM Options: Run-> Edit Configuration -> modify options -> add vm options --m
 
 Screenshot
 
-![Capture1](https://user-images.githubusercontent.com/48985550/120706520-070b6000-c4db-11eb-9a56-a3a10ac2f284.PNG)
+![image](https://user-images.githubusercontent.com/48985550/120706923-813be480-c4db-11eb-97dd-a115a97b2806.png)
+
