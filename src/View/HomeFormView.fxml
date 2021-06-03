@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.HomeFormController">
+    <children>
+        <ImageView accessibleRole="BUTTON" fitHeight="100.0" fitWidth="100.0" layoutX="413.0" layoutY="197.0" onMouseClicked="#navigate" onMouseExited="#playMouseExitAnimation" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="books" accessibleRole="BUTTON" fitHeight="100.0" fitWidth="100.0" layoutX="81.0" layoutY="383.0" onMouseClicked="#navigate" onMouseEntered="#playMouseEnterAnimation" onMouseExited="#playMouseExitAnimation" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="issue" accessibleRole="BUTTON" fitHeight="116.0" fitWidth="127.0" layoutX="239.0" layoutY="375.0" onMouseClicked="#navigate" onMouseEntered="#playMouseEnterAnimation" onMouseExited="#playMouseExitAnimation" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="bk_return" accessibleRole="BUTTON" fitHeight="100.0" fitWidth="100.0" layoutX="413.0" layoutY="383.0" onMouseClicked="#navigate" onMouseEntered="#playMouseEnterAnimation" onMouseExited="#playMouseExitAnimation" pickOnBounds="true" preserveRatio="true" />
+        <Text fontSmoothingType="LCD" layoutX="100.0" layoutY="90.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" strokeWidth="2.0" text="Library Management" textAlignment="CENTER" wrappingWidth="414.92236328125">
+            <font>
+                <Font name="Stencil" size="37.0" />
+            </font>
+        </Text>
+        <Text fill="#2c3e50" layoutX="425.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Members">
+            <font>
+                <Font name="Times New Roman" size="18.0" />
+            </font>
+        </Text>
+        <Text fill="#2c3e50" layoutX="100.0" layoutY="516.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Books" textAlignment="CENTER">
+            <font>
+                <Font name="Times New Roman" size="18.0" />
+            </font>
+        </Text>
+        <Text fill="#2c3e50" layoutX="255.0" layoutY="516.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book Issue">
+            <font>
+                <Font name="Times New Roman" size="18.0" />
+            </font>
+        </Text>
+        <Text fill="#2c3e50" fontSmoothingType="LCD" layoutX="415.0" layoutY="516.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book Returns">
+            <font>
+                <Font name="Times New Roman" size="18.0" />
+            </font>
+        </Text>
+        <Text fill="#2c3e50" layoutX="97.0" layoutY="304.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book Search">
+            <font>
+                <Font name="Times New Roman" size="18.0" />
+            </font>
+        </Text>
+      <Pane prefHeight="14.0" prefWidth="600.0" style="-fx-background-color: black;" />
+      <Pane prefHeight="600.0" prefWidth="15.0" style="-fx-background-color: black;" />
+      <Pane layoutY="586.0" prefHeight="14.0" prefWidth="600.0" style="-fx-background-color: black;" />
+      <Pane layoutX="586.0" prefHeight="600.0" prefWidth="15.0" style="-fx-background-color: black;" />
+      <Pane layoutX="165.0" layoutY="100.0" prefHeight="3.0" prefWidth="276.0" style="-fx-background-color: black;" />
+      <FontAwesomeIconView fx:id="bk_search" glyphName="SEARCH" layoutX="90.0" layoutY="260.0" onMouseClicked="#navigate" onMouseEntered="#playMouseEnterAnimation" onMouseExited="#playMouseExitAnimation" size="100" />
+      <FontAwesomeIconView fx:id="member" glyphName="USERS" layoutX="405.0" layoutY="251.0" onMouseClicked="#navigate" onMouseEntered="#playMouseEnterAnimation" onMouseExited="#playMouseExitAnimation" size="100" text="" />
+      <FontAwesomeIconView glyphName="BOOK" layoutX="90.0" layoutY="470.0" size="100" text="" />
+      <FontAwesomeIconView glyphName="CLIPBOARD" layoutX="250.0" layoutY="470.0" size="100" />
+      <FontAwesomeIconView glyphName="HISTORY" layoutX="415.0" layoutY="470.0" size="100" />
+    </children>
+</AnchorPane>
